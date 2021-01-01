@@ -1,5 +1,5 @@
 from functools import wraps
-from flask import request, g, abort
+from flask import request, g
 from jwt import decode, exceptions
 import json
 
