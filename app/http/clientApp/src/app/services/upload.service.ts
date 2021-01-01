@@ -11,7 +11,7 @@ export class UploadService {
 
   async upload(file) {
     const accessToken = await this.oktaAuth.getAccessToken();
-    const url = `http://127.0.0.1:4433/uploadFile`;
+    const url = `https://upload-app-sumir.herokuapp.com/`;
     const httpOptions = {
       headers: new HttpHeaders({
         'Authorization': 'Bearer ' + accessToken + ''
