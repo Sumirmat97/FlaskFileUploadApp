@@ -1,0 +1,5 @@
+<mat-toolbar>
+  <span routerLink="/" class="home">Upload App</span>
+  <span class="spacer"></span>
+  <button *ngIf="!hideLogout" mat-button (click)="logout()">LOGOUT</button>
+</mat-toolbar>

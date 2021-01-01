@@ -1,0 +1,12 @@
+.selectFileText{
+  padding: 10% 10px;
+  border: 1.60px dashed #ccc;
+  color: #ccc;
+  cursor: pointer;
+  margin: 5px 1% 15px 1%;
+}
+
+.submitBtn {
+  background-color: #28a745;
+  margin-left:79%;
+}
